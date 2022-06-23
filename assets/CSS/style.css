@@ -3,47 +3,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-body{
-    color: olive;
-    font-size: border-box;
-}
-/*header*/
-header{
-    justify-content: space-between;
-    padding: 50px 45px;
-    background-color: darkgray;
-
-}
-header h1{
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-    margin: 0;
+/* hero style */
+.hero{
+    height: 100vh;
+    width: 100%;
+   background-image: url(../images/background.jpg);
+   background-size: cover;
+   background-position: center;
 
 }
 
-header a{
-    text-decoration: none;
-    color: olive;
-    
-}
-header nav ul{
+nav{
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 45px 8% 8% ;
 }
-header nav ul li a{
-    padding: 10px 15px;
-    font-weight: lighter;
+.logo{
+    color: red;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: black;
 
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 
 }
 
+nav ul li a:hover{
+    color: red;
 
-/*avatar*/
-.avatar {
-    vertical-align: middle;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-  }
+}
+
+.btn{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    color:plum;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-style: italic;
+}
+
+h1{
+    color: red;
+    font-size: 70px;
+    margin: 20px 0px 20px;
+}
+
+h3{
+    color: black;
+    font-size: 35px;
+    margin-bottom: auto;
+
+}
+
+h2{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
