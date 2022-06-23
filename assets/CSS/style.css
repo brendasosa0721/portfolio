@@ -102,7 +102,7 @@ background-color: #191919;
 
 .about img{
     height: auto;
-    width: 300px;
+    width: 450px;
   
 }
 
@@ -150,4 +150,53 @@ button{
     cursor: pointer;
     
  }
+
+ /* End of the About me Session*/
+
+ /* Projects session*/
+
+ .project{
+    background-color: #191919;
+    width: 100%;
+padding: 100px 0px;
+
+
+ }
+
+ .title h2{
+    font-size: 65px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 1130px;
+    
+ }
+
+ 
+ .project span{
+    color: red;
+    
+ }
+
+ .project h5{
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    
+    
+ }
+
+ .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+ }
+ .project p{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 25px;
+    width: 550px;
+ }
+
 
