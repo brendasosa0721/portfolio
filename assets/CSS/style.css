@@ -89,3 +89,65 @@ h2{
     font-size: 35px;
     letter-spacing: 2px;
 }
+
+/* End of the hero section Style*/
+
+/* about me session*/
+
+.about{
+width: 100%;
+padding: 100px 0px;
+background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 300px;
+  
+}
+
+.about-text h2:hover{
+    color: red;
+    letter-spacing: 3px;
+    align-items: center;
+}
+
+.about-text h5{
+    color: blue;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.about-text p{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 25px;
+    width: 550px;
+    
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 35px;
+}
+ button:hover{
+    background-color: blue;
+    border: 2px solid red;
+    cursor: pointer;
+    
+ }
+
