@@ -199,4 +199,84 @@ padding: 100px 0px;
     width: 550px;
  }
 
+ .card .button{
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 0px;
+    border-radius: 15px;
+    color: #191919;
+    font-size: 15px;
+}
+ .card .button:hover{
+    background-color: blue;
+    border: 2px solid red;
+    cursor: pointer;
+ }
 
+ /* End project session*/
+
+ /* skills session*/
+
+ .skills{
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .skills ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid;
+ }
+
+ .skills:hover{
+    color: blue;
+   
+ }
+ .skills ul li a{
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+ }
+
+/*End of Skills sessio*/
+
+/*contact me session*/
+
+.contact-me{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.contact-me p{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 25px;
+    width: 550px;
+}
+
+.button-two{
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 0px;
+    border-radius: 15px;
+    color: #191919;
+    font-size: 15px;
+}
+
+.button-two:hover{
+        background-color: blue;
+        border: 2px solid red;
+        cursor: pointer;
+}
