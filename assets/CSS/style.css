@@ -85,7 +85,9 @@ h3{
     margin-bottom: auto;
 
 }
-
+h3 span{
+    color: red;
+}
 h2{
     color:black;
     font-size: 35px;
@@ -115,7 +117,7 @@ background-color: #191919;
 }
 
 .about-text h5{
-    color: blue;
+    color:red;
     font-style: italic;
     font-size: 20px;
     
@@ -182,7 +184,7 @@ padding: 100px 0px;
  .project h5{
     font-style: italic;
     font-size: 20px;
-    color: blue;
+    color:red;
     
     
  }
@@ -357,15 +359,25 @@ footer p{
 }
 /* End footer*/
 
-/*Media queries*/
+/*Media queries for smaller desktop screens and smaller*/
 
-@media  only screen and (max-width: 768px) {
-    {
-        /* For mobile phones: */
-        [class*="col-"] {
-          width: 100%;
-        }
-      }
-    
+@media screen and (max-width: 980px) {
+    header h1 a{
+        /*this will change color to purple)*/
+        color: purple
+    }
     
 }
+
+@media screen and (max-width:768px){
+    header h1{
+/*this will be applied on any screent between 768px and 575px*/
+font-size: 75px;
+}
+    }
+
+
+
+    
+    
+    
