@@ -201,7 +201,7 @@ padding: 100px 0px;
     width: auto;
  }
 
-   .card.button{
+   .card.images{
     background-color: red;
     text-decoration: none;
     border: 2px solid transparent;
@@ -212,15 +212,20 @@ padding: 100px 0px;
     font-size: 15px;
     
 }
- .card .button:hover{
-    background-color: blue;
-    border: 2px solid red;
-    cursor: pointer;
- }
-.button img{
+
+ 
+.images img{
     width: 500px;
     height: 500px;
     border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.images img:hover{
+    
+    border: 2px solid red;
+    
 }
  /* End project session*/
 
@@ -240,6 +245,7 @@ padding: 100px 0px;
     padding: 10px 25px;
     border-radius: 25px;
     border: 2px solid;
+    text-align: center;
  }
 
  .skills:hover{
@@ -251,6 +257,7 @@ padding: 100px 0px;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
+    text-align: center;
  }
 
 /*End of Skills sessio*/
