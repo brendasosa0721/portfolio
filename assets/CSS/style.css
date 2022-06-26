@@ -170,8 +170,7 @@ padding: 100px 0px;
     font-size: 65px;
     letter-spacing: 3px;
     text-align: center;
-    width: 1130px;
-    
+    width:auto;
  }
 
  
@@ -199,10 +198,10 @@ padding: 100px 0px;
     text-decoration: none;
     font-style: normal;
     font-size: 25px;
-    width: 550px;
+    width: auto;
  }
 
- .card .button{
+   .card.button{
     background-color: red;
     text-decoration: none;
     border: 2px solid transparent;
@@ -211,13 +210,18 @@ padding: 100px 0px;
     border-radius: 15px;
     color: #191919;
     font-size: 15px;
+    
 }
  .card .button:hover{
     background-color: blue;
     border: 2px solid red;
     cursor: pointer;
  }
-
+.button img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
  /* End project session*/
 
  /* skills session*/
@@ -345,3 +349,9 @@ footer p{
     font-size: 10px;
 }
 /* End footer*/
+
+/*Media queries*/
+
+@media screen {
+    
+}
