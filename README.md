@@ -13,7 +13,7 @@ I created this portfolio to display my work during my career. I am very excited 
 
 ## Website
 
-https://brendasosa0721.github.io/Challenge-2/
+https://brendasosa0721.github.io/portfolio/
 
 Github: https://github.com/brendasosa0721/Challenge-2
 
